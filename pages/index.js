@@ -5,7 +5,7 @@ export default class index extends Component {
  render() {
    return (
     <Layout pageTitle="Home">
-      <h1>Hello</h1>
+      <h1>Home</h1>
     </Layout>
    )
   }

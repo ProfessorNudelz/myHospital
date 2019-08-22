@@ -1,0 +1,16 @@
+{
+  "patients": [
+    { 
+      "id": 561956, 
+      "firstName": "John", 
+      "lastName": "Doe",
+      "medicare": "1234 56789 0 1"
+    },
+    { 
+      "id": 227552, 
+      "firstName": "Jane", 
+      "lastName": "Doe",
+      "medicare": "xxxx xxxxx x x"
+    }
+  ]
+}
