@@ -6,10 +6,7 @@ export default class patientTable extends Component {
     super(props)
     // Inital State
     this.state = { data: [] }
-  }
-
-  // Before the component is rendered, a GET request is sent to the database to fetch all of the videos and the response is set to the state.
-  componentWillMount () {
+    // Request sent to json-server to retreive data and set the responce to the state.
     axios.get('http://localhost:4000/patients')
       .then(res => {
         this.setState({
