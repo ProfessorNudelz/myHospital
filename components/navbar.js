@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Link from 'next/link'
 
 export default class navbar extends Component {
   render () {
@@ -11,12 +12,12 @@ export default class navbar extends Component {
 
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mr-auto">
-            <li className="nav-item active">
-              <a className="nav-link" href="/">Home <span className="sr-only">(current)</span></a>
-            </li>
-            <li className="nav-item">
+            <li><Link href="/">
+              <a className="nav-link" >Home <span className="sr-only">(current)</span></a>
+            </Link></li>
+            <li><Link href="/patients">
               <a className="nav-link" href="/patients">Patients</a>
-            </li>
+            </Link></li>
           </ul>
         </div>
       </nav>
